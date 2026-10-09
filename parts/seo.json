@@ -1,0 +1,128 @@
+{
+  "film-artifacts": {
+    "title": "Film Artefacts | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/film-artifacts",
+    "path": "/film-artifacts/"
+  },
+  "film-reels": {
+    "title": "Film Reels | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/film-reels",
+    "path": "/film-reels/"
+  },
+  "about": {
+    "title": "About | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/about",
+    "path": "/about/"
+  },
+  "contact": {
+    "title": "Contact | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/contact",
+    "path": "/contact/"
+  },
+  "media-collection": {
+    "title": "Media Collection | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/media-collection",
+    "path": "/media-collection/"
+  },
+  "blog": {
+    "title": "News | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/blog",
+    "path": "/blog/"
+  },
+  "terms-and-conditions": {
+    "title": "Terms and Conditions | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/terms-and-conditions",
+    "path": "/terms-and-conditions/"
+  },
+  "3d-museum": {
+    "title": "3D Museum | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/3d-museum",
+    "path": "/3d-museum/"
+  },
+  "home": {
+    "title": "Home | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/",
+    "path": "/"
+  },
+  "personal-artifacts": {
+    "title": "Personal Artifacts | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/personal-artifacts",
+    "path": "/personal-artifacts/"
+  },
+  "documentary": {
+    "title": "Documentary | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/documentary",
+    "path": "/documentary/"
+  },
+  "faq": {
+    "title": "FAQ | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/faq",
+    "path": "/faq/"
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/privacy-policy",
+    "path": "/privacy-policy/"
+  },
+  "gallery": {
+    "title": "Gallery | Fellini Forever",
+    "description": "",
+    "robots": {
+      "robots": "noindex"
+    },
+    "original_url": "https://www.felliniforever.org/gallery",
+    "path": "/gallery/"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "fields": [
+    {
+      "key": "name",
+      "type": "text",
+      "label": "Name",
+      "placeholder": "Name",
+      "required": true,
+      "max": 100,
+      "source_max": "100"
+    },
+    {
+      "key": "email",
+      "type": "email",
+      "label": "Email",
+      "placeholder": "Email",
+      "required": true,
+      "max": 250,
+      "source_max": "250"
+    },
+    {
+      "key": "subject",
+      "type": "text",
+      "label": "Subject",
+      "placeholder": "Subject",
+      "required": false,
+      "max": 10000,
+      "source_max": null
+    },
+    {
+      "key": "message",
+      "type": "textarea",
+      "label": "Type your message here...",
+      "placeholder": "Type your message here...",
+      "required": false,
+      "max": 10000,
+      "source_max": null
+    }
+  ],
+  "submit": "Submit",
+  "thanks": "Thanks for submitting!",
+  "source_url": "https://www.felliniforever.org/contact"
+}

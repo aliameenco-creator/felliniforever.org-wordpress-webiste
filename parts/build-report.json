@@ -1,0 +1,40 @@
+{
+  "archive": "exports\\www.felliniforever.org-6c0da9fafb",
+  "pages": 14,
+  "draft_posts": 6,
+  "image_files": 87,
+  "gallery_usages": 111,
+  "excluded": [
+    {
+      "path": "/post",
+      "reason": "Source HTTP 404"
+    }
+  ],
+  "limitations": [
+    "Original counters rendered 0; no invented counts.",
+    "Source favicon is Wix default, preserved unchanged.",
+    "All source pages are noindex; retained until launch decision.",
+    "Newsletter opt-ins saved privately, not subscribed to an external service.",
+    "3D objects require original external viewer; click-to-load.",
+    "Recipient and real email delivery pending user configuration.",
+    "Two homepage VOD file downloads returned HTTP 403; supplied files needed, posters/source links preserved."
+  ],
+  "films": [
+    {
+      "title": "Rare 35 mm Footage - A Fellini Reel",
+      "status": "source-video-required-403"
+    },
+    {
+      "title": "A closer look - The Exhibition",
+      "status": "source-video-required-403"
+    },
+    {
+      "title": "\"Fellini Forever: The Hidden Archive\": Toronto celebra il genio del cinema italiano a Casa Loma",
+      "status": "external-embed"
+    },
+    {
+      "title": "Fellini Forever: The Hidden Archive With Founder Domenic Sciullo | TLN Connects",
+      "status": "external-embed"
+    }
+  ]
+}
