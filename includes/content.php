@@ -23,7 +23,12 @@ function fellini_record( $key = '' ) {
     return array();
 }
 function fellini_theme_fragment( $html ) {
+    // Seeded blocks use concrete URLs so images also display in the WordPress editor.
+    $html = str_replace( get_theme_file_uri( 'assets/' ), '/assets/', $html );
     $html = fellini_media_swap( $html );
+    return fellini_resolve_tokens( $html );
+}
+function fellini_resolve_tokens( $html ) {
     $html = preg_replace_callback( '~(src|href|poster|data-video)="(/assets/[^"<>]+)"~', function ( $m ) { return $m[1] . '="' . esc_url( get_theme_file_uri( ltrim( $m[2], '/' ) ) ) . '"'; }, $html );
     return preg_replace_callback( '~href="(/(?!/)[^"<>]*)"~', function ( $m ) { return 'href="' . esc_url( home_url( $m[1] ) ) . '"'; }, $html );
 }

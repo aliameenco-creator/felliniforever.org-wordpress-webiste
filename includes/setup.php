@@ -35,7 +35,7 @@ function fellini_setup_content() {
             $existing = get_posts( array( 'post_type' => $record['type'], 'post_status' => 'any', 'meta_key' => '_fellini_source_key', 'meta_value' => $record['key'], 'numberposts' => 1 ) );
             $collision = get_page_by_path( $slug, OBJECT, $record['type'] );
             if ( $existing || $collision ) { $report['skipped'][] = $record['key']; continue; }
-            $post = array( 'post_type' => $record['type'], 'post_status' => $record['status'], 'post_name' => $slug, 'post_title' => $record['title'], 'post_content' => $record['content'], 'meta_input' => array( '_fellini_source_key' => $record['key'], '_fellini_original_path' => $record['path'] ) );
+            $post = array( 'post_type' => $record['type'], 'post_status' => $record['status'], 'post_name' => $slug, 'post_title' => $record['title'], 'post_content' => fellini_resolve_tokens( $record['content'] ), 'meta_input' => array( '_fellini_source_key' => $record['key'], '_fellini_original_path' => $record['path'] ) );
             if ( isset( $record['date'] ) ) { $post['post_date'] = $record['date']; }
             $id = wp_insert_post( wp_slash( $post ), true );
             if ( is_wp_error( $id ) ) { $report['failed'][ $record['key'] ] = $id->get_error_message(); continue; }

@@ -8,3 +8,4 @@
 - Subtle reduced-motion-aware reveals, responsive layouts and accessible mobile navigation.
 - Original contact and newsletter forms with private storage and configurable notifications.
 - Idempotent setup/media import, source SEO preservation and verified GitHub release updater.
+- Seeded native images display in the WordPress editor and resolve to Media Library images on the frontend.
